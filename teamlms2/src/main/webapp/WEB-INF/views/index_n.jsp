@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri= "http://java.sun.com/jsp/jstl/core" prefix="c" %>    
+<c:set var= "path" value="${pageContext.request.contextPath}"/>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -150,12 +152,12 @@
 		<div class="slideshow_container">
 			<div class="mySlides fade">
 				  <div class="numbertext"></div>
-				  <img src="img/slide1.png" style="width:100%" >
+				  <img src="${path}/resources/img/slide1.png" style="width:100%" >
 				  <!-- <div class="text"></div> -->
 			</div>
 			<div class="mySlides fade">
 				  <div class="numbertext"></div>
-				  <img src="img/slide2dog.png" style="width:100%">
+				  <img src="${path}/resources/img/slide2dog.png" style="width:100%">
 				  <!-- <div class="text"></div> -->
 			</div>
 		</div>	
@@ -171,22 +173,22 @@
 			<div class="topic_start_content">
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 			</div>			
@@ -200,18 +202,18 @@
 		<div>
 			<div class="new_class_content" style="display: flex; margin: 0 auto;">
 				<div class="new_class_area">
-					<img src="img/newclass.png">
+					<img src="${path}/resources/img/newclass.png">
 				</div>
 				<div class="new_class_area">
-					<img src="img/newclass.png">
+					<img src="${path}/resources/img/newclass.png">
 				</div>
 			</div>
 			<div class="new_class_content" style="display: flex;  flex; margin: 0 auto;">
 				<div class="new_class_area">
-					<img src="img/newclass.png">
+					<img src="${path}/resources/img/newclass.png">
 				</div>
 				<div class="new_class_area">
-					<img src="img/newclass.png">
+					<img src="${path}/resources/img/newclass.png">
 				</div>
 			</div>
 		</div>
@@ -224,22 +226,22 @@
 			<div class="topic_start_content">
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 				<div class="topic_content_area">
 					<div class="topic_start_img">
-						<img src="img/rere.topic_img1.png">
+						<img src="${path}/resources/img/rere.topic_img1.png">
 					</div>
 				</div>
 			</div>			

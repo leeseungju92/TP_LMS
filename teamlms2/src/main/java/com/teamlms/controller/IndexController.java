@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 public class IndexController {
 
-	@RequestMapping("/")
+	//@RequestMapping("/")
 	public String indexView(Model model) {
 		log.info(">>>>> INDEX PAGE VIEW");
 		
