@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.mytop.controller">
+	<logger name="com.teamlms.controller">
 		<level value="info" />
 	</logger>
 	
