@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ include file = "include/include.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -251,7 +252,6 @@
 <script type="text/javascript">
 var slideIndex = 0;
 showSlides();
-
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
